@@ -1,7 +1,7 @@
-// import ClearUp from "./components/useeffect/ClearnUp";
-// import UseEffect from "./components/useeffect/UseEffect";
 // import UseState from "./components/usestate/UseState";
 // import UseStateObject from "./components/usestate/UseStateObject";
+// import ClearUp from "./components/useeffect/ClearnUp";
+// import UseEffect from "./components/useeffect/UseEffect";
 import ReducerHook from "./components/usereducer/ReducerHook";
 // import Parent from "./Parent";
 // import RefHook from "./components/useref/RefHook";
@@ -9,6 +9,8 @@ import ReducerHook from "./components/usereducer/ReducerHook";
 // import LayoutEffect from "./components/uselayouteffect/LayoutEffect";
 // import MemoHook from "./components/usememo/MemoHook";
 // import Callbackhook from "./components/usecallback/CallbackHook";
+
+// import { useState } from "react";
 
 const App = () => {
   return <ReducerHook />;

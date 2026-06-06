@@ -14,6 +14,7 @@ const ClearUp = () => {
       window.removeEventListener("resize", currentScreenWidth);
     };
   });
+
   return (
     <Wrapper>
       <div className="container">

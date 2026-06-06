@@ -4,3 +4,12 @@
   padding: 2rem;
   text-align: center;
 }
+
+
+.container{
+  min-height: 100vh
+  display : flex;
+  flex-direction : column;
+  justify : center;
+  align-item: center
+}

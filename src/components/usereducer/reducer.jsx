@@ -17,6 +17,8 @@ const reducer = (count, action) => {
       let newCount = 0;
       count >= 1 ? (newCount = count - 1) : (newCount = 0);
       return newCount;
+    case "RESET":
+      return (count = 0);
     default:
       return count;
   }
